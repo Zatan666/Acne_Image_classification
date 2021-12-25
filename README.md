@@ -1,1 +1,1 @@
-# Image_classification
+# Acne Image_classification
