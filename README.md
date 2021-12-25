@@ -1,7 +1,21 @@
-# Acne Image_classification
+# Acne Image_classification 
+
+## Data collection
 The data are 345 Acne images compiled from Google.
-categorized in accordance with types of acnes which can be diagnosed from their appearances into 5 types. 1. Black Head (closed comedone)
+
+categorized with types of acnes which can be diagnosed from their appearances into 5 types. 
+
+1. Black Head (closed comedone)
 2. White Head (opended comedone)
-3. Papule 
-4. Pustule
-5. Nodule. 
+4. Papule 
+5. Pustule
+6. Nodule. 
+
+## Data augmentation
+We use Data augmentation to increase the number of samples in our dataset 
+we  used 
+- Rotate
+- Horizontal and Vertical Flip 
+
+We also calculate class weights to help us with imbalanced data
+
